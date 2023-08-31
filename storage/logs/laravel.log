@@ -1520,3 +1520,38 @@
 #61 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
 #62 {main}
 "} 
+[2023-08-31 13:31:27] local.ERROR: Unclosed '{' on line 8 does not match ']' {"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 8 does not match ']' at /opt/lampp/htdocs/laravel/ecommerce/app/Http/Kernel.php:75)
+[stacktrace]
+#0 /opt/lampp/htdocs/laravel/ecommerce/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#3 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\\Foundation\\Application->resolve()
+#6 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\\Container\\Container->Illuminate\\Container\\{closure}()
+#7 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build()
+#8 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\\Container\\Container->resolve()
+#9 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#10 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\\Container\\Container->make()
+#11 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/sanctum/src/SanctumServiceProvider.php(133): Illuminate\\Foundation\\Application->make()
+#12 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/sanctum/src/SanctumServiceProvider.php(60): Laravel\\Sanctum\\SanctumServiceProvider->configureMiddleware()
+#13 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#14 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#16 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#18 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1010): Illuminate\\Container\\Container->call()
+#19 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(991): Illuminate\\Foundation\\Application->bootProvider()
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#21 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(990): array_walk()
+#22 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#24 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#25 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2023-08-31 13:31:27] local.ERROR: Unclosed '{' on line 8 does not match ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 8 does not match ']' at /opt/lampp/htdocs/laravel/ecommerce/app/Http/Kernel.php:75)
+[stacktrace]
+#0 {main}
+"} 
