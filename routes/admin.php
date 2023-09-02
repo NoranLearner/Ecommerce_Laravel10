@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Dashboard\LoginController;
+use App\Http\Controllers\Dashboard\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('welcome');
-}); */
-
-Route::get('/testLayout', function () {
+/* Route::get('/testLayout', function () {
     return view('dashboard.dashboard');
+})->name('admin.dashboard');
+ */
+//Use Prefix admin for all file route
+
+Route::group(['namespace' => 'Dashboard', 'middleware' => 'auth:admin'], function () {
+
+    Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
+
+});
+
+Route::group(['namespace' => 'Dashboard', 'middleware' => 'guest:admin'], function () {
+
+    Route::get('login', [LoginController::class, 'getLogin'])->name('admin.getLogin');
+
+    Route::post('login', [LoginController::class, 'postLogin'])->name('admin.postLogin');
+
 });
