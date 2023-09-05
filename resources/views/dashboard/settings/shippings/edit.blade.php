@@ -56,7 +56,7 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body">
 
-                                        <form class="form" action="{{route('update.shipping.methods',$shippingMethod -> id)}}" method="PUT" enctype="multipart/form-data">
+                                        <form class="form" action="{{route('update.shipping.methods',$shippingMethod -> id)}}" method="POST" enctype="multipart/form-data">
 
                                             @csrf
 
