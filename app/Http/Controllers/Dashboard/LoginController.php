@@ -30,4 +30,19 @@ class LoginController extends Controller
 
     }
 
+    private function getGuard()
+    {
+        return auth('admin');
+    }
+
+    public function logout(){
+
+        $guard = $this->getGuard();
+
+        $guard -> logout();
+
+        return redirect()->route('admin.getLogin');
+
+    }
+
 }
