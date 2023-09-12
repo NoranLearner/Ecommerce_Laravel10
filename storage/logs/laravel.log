@@ -4007,3 +4007,27 @@ Stack trace:
 #62 /opt/lampp/htdocs/laravel/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
 #63 {main}
 "} 
+[2023-09-12 11:46:39] local.ERROR: Trait "App\Models\Translatable" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\Translatable\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/Category.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2023-09-12 11:46:56] local.ERROR: Trait "App\Models\HasApiTokens" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\HasApiTokens\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/Category.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2023-09-12 11:47:10] local.ERROR: Trait "App\Models\HasApiTokens" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\HasApiTokens\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/Category.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2023-09-12 11:47:20] local.ERROR: Trait "App\Models\Translatable" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\Translatable\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/Category.php:10)
+[stacktrace]
+#0 {main}
+"} 
+[2023-09-12 11:55:10] local.ERROR: Trait "App\Models\HasApiTokens" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\HasApiTokens\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/CategoryTranslation.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2023-09-12 11:55:10] local.ERROR: Trait "App\Models\Notifiable" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Models\\Notifiable\" not found at /opt/lampp/htdocs/laravel/ecommerce/app/Models/CategoryTranslation.php:9)
+[stacktrace]
+#0 {main}
+"} 
